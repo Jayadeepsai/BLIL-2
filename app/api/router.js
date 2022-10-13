@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const connection = require('../dbConnection');
+const connection = require('c:/Users/jayad/Desktop/BLIL/app/dbconnection');
 const { signupValidation, loginValidation } = require('./validation');
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
