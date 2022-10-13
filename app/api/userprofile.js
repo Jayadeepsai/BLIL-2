@@ -4,7 +4,7 @@ const flash = require('connect-flash');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const userprofile = express();
-const connection=require('../dbconnection')
+const connection=require('c:/Users/jayad/Desktop/BLIL/app/dbconnection')
 const nodemailer = require('nodemailer');
 
 userprofile.use(flash());

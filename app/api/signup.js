@@ -4,7 +4,7 @@ const flash = require('connect-flash');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const signup = express.Router();
-const connection=require('../dbconnection')
+const connection=require('c:/Users/jayad/Desktop/BLIL/app/dbconnection')
 
 signup.use(flash());
 signup.use(bodyParser.json());

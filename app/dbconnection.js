@@ -5,7 +5,7 @@ const connection= mysql.createConnection({
     user: 'root',
     password: '7700',
     database: 'blildata',
-    multipleStatements: true
+    
   
   })
   connection.connect(function(error){
