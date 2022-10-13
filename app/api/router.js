@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const connection = require('c:/Users/jayad/Desktop/BLIL/app/dbconnection');
-const { signupValidation, loginValidation } = require('./validation');
+const { signupValidation, loginValidation } = require('c:/Users/jayad/Desktop/BLIL/app/api/validation');
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
