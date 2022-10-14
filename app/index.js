@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const app = express();
 
-const userprofile=require('../app/api/userprofile');
+const userprofile=require('./api/userprofile');
 const signup=require('c:/Users/jayad/Desktop/BLIL/app/api/signup');
 //const validation=require('./validation');
 const router=require('c:/Users/jayad/Desktop/BLIL/app/api/router');
