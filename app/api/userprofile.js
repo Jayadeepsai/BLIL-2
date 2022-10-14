@@ -11,7 +11,7 @@ userprofile.use(flash());
 userprofile.use(bodyParser.json());
 userprofile.use(session({ 
     secret: '123456catr', 
-    resave: true,
+    resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }));

@@ -4,7 +4,7 @@ const app = require('c:/Users/jayad/Desktop/BLIL/app/app.js')
 const port =process.env.PORT || 5000;
 
 const server = http.createServer(app);
-// Start the server on port 8000
+// Start the server on port 5000
 server.listen(port);
 
 console.log('Node server running on port',port);

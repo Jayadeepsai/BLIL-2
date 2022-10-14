@@ -10,7 +10,7 @@ signup.use(flash());
 signup.use(bodyParser.json());
 signup.use(session({ 
     secret: '123456catr',
-    resave: true,
+    resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }));

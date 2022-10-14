@@ -26,7 +26,7 @@ app.use(flash());
 app.use(bodyParser.json());
 app.use(session({ 
     secret: '123456catr',
-    resave: true,
+    resave: false,
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }));
