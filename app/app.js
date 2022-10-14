@@ -10,6 +10,7 @@ const signup=require('c:/Users/jayad/Desktop/BLIL/app/api/signup');
 //const validation=require('./validation');
 const router=require('c:/Users/jayad/Desktop/BLIL/app/api/router');
 const indexRouter = require('c:/Users/jayad/Desktop/BLIL/app/api/router');
+const connection =require('c:/Users/jayad/Desktop/BLIL/app/dbconnection')
 
 /*app.use((req,res,next)=>{
     
